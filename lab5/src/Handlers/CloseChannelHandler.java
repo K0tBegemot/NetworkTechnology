@@ -26,7 +26,7 @@ public class CloseChannelHandler implements Handler {
                 }
             }
             // cancel key and close channel
-            System.err.println(key.toString());
+            LogWriter.logWorkflow(key.toString(), workflowLogger);
             key.cancel();
             try {
                 key.channel().close();

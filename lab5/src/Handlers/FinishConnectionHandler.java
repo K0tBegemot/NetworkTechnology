@@ -11,6 +11,7 @@ import java.nio.channels.SocketChannel;
 
 public class FinishConnectionHandler implements Handler {
     private static GlobalLogger workflowLogger = GlobalLogger.LoggerCreator.getLogger(GlobalLogger.LoggerType.WORKFLOW_LOGGER);
+    private static GlobalLogger exceptionLogger = GlobalLogger.LoggerCreator.getLogger(GlobalLogger.LoggerType.EXCEPTION_LOGGER);
 
     @Override
     public void handle(SelectionKey key) throws Exception {
@@ -32,17 +33,14 @@ public class FinishConnectionHandler implements Handler {
         }
         catch (Exception e) {
             isResponseSuccess = false;
-            System.err.println(e.getMessage());
-            System.err.println(e.getClass().getName());
-            //if we catch exception when connection establishing is failed
+            LogWriter.logException(e, exceptionLogger, "ClassName: " + e.getClass().getName());
         }
-        System.err.println(key.toString());
-        System.err.println(remoteKey.toString());
+        LogWriter.logWorkflow(key.toString(), workflowLogger);
+        LogWriter.logWorkflow(remoteKey.toString(), workflowLogger);
         if(isResponseSuccess) {
             key.interestOps(0);
             // register remote (client) key on Connection response success
             registerOnConnectionResponse(KeyState.CONNECT_RESPONSE_SUCCESS, remoteKey);
-
             LogWriter.logWorkflow("connection finished to host " + hostInfo, workflowLogger);
         }else{
             // register remote (client) key on Connection response failed

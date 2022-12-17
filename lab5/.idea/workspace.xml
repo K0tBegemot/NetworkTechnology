@@ -2,84 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea3f921-4740-4b1f-a7a3-9d49bf2cdc74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab3/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_simple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/dnsjava_dnsjava_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/s.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Attachments/BaseAttachment$KeyState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Attachments/BaseAttachment$KeyState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Attachments/BaseAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Attachments/BaseAttachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Attachments/CompleteAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Attachments/CompleteAttachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Attachments/ConnectionRequestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Attachments/DnsAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Attachments/DnsAttachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Core/Constants$ResolverConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Core/Constants$ResolverConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Core/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Core/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Core/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Core/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Core/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/DNS/AddressGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/DNS/AddressGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/DNS/DomainNameResolver$KeyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/DNS/DomainNameResolver$KeyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/DNS/DomainNameResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/DNS/DomainNameResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/BaseException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/HandlerException$Classes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/HandlerException$Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/HandlerException$Types.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/HandlerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/HandlerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/ResolverException$Classes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/ResolverException$Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/ResolverException$Types.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/ResolverException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/ResolverException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/ServerException$Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/ServerException$Types.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/ServerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/ServerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/SocksException$Classes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/SocksException$Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/SocksException$Types.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Exceptions/SocksException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Exceptions/SocksException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/AcceptHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/AcceptHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/CloseChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/CloseChannelHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/ConnectionRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/ConnectionRequestHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/ConnectionResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/ConnectionResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/Connector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/DnsResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/DnsResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/FinishConnectionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/FinishConnectionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/HandlerFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/HandlerFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/HandlerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/HandlerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/InitRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/InitRequestHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/InitResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/InitResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Handlers/ProxyingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Handlers/ProxyingHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$LoggerCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$LoggerCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$LoggerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$LoggerType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$Mode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$SimpleFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger$SimpleFormatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/GlobalLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/Logger/LogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/Logger/LogWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/SOCKS/ConnectionMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/SOCKS/ConnectionMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab5/SOCKS/SOCKSv5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/SOCKS/SOCKSv5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attachments/BaseAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attachments/BaseAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attachments/CompleteAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attachments/CompleteAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attachments/ConnectionRequestData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DNS/DomainNameResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNS/DomainNameResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/HandlerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HandlerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ResolverException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ResolverException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ServerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ServerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/SocksException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/SocksException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/AcceptHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/AcceptHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/CloseChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/CloseChannelHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/ConnectionRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ConnectionRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/ConnectionResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ConnectionResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/Connector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/DnsResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/DnsResponseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/FinishConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/FinishConnectionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/HandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/HandlerFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/InitRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/InitRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/InitResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/InitResponseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Handlers/ProxyingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ProxyingHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/LogWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logger/LogWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOCKS/SOCKSv5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOCKS/SOCKSv5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger/GlobalLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logger/GlobalLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,11 +57,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kotbegemot/Desktop/Labs/NetworkTechnologyPulled/NSU_Networks/lab5",
+    "last_opened_file_path": "/home/kotbegemot/Desktop/Labs/NetworkTechnology/lab5",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -150,6 +95,9 @@
       <workItem from="1669004484102" duration="25845000" />
       <workItem from="1669178510381" duration="53535000" />
       <workItem from="1669280493266" duration="36423000" />
+      <workItem from="1671278080422" duration="1663000" />
+      <workItem from="1671279763903" duration="313000" />
+      <workItem from="1671280239228" duration="5085000" />
     </task>
     <servers />
   </component>

@@ -19,12 +19,11 @@ public class InitResponseHandler implements Handler {
 
     @Override
     public void handle(SelectionKey key) throws HandlerException {
-        LogWriter.logWorkflow("sending init response..", workflowLogger);
+        LogWriter.logWorkflow("sending init response... " + key.toString(), workflowLogger);
 
         assert key != null;
         SelectableChannel channel = key.channel();
         assert channel instanceof SocketChannel;
-        System.err.println(key.toString());
         SocketChannel clientChannel = (SocketChannel) channel;
         CompleteAttachment attachment = (CompleteAttachment) key.attachment();
         ByteBuffer buffer = attachment.getIn();

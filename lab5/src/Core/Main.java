@@ -19,7 +19,7 @@ public class Main {
             System.err.println("invalid port number - " + args[0]);
             System.exit(1);
         }
-        Server.start(port, GlobalLogger.Mode.ENABLE);
+        Server.start(port, GlobalLogger.Mode.ENABLE_ALL);
     }
 
 }

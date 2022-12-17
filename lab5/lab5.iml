@@ -19,5 +19,6 @@
     <orderEntry type="library" name="s" level="project" />
     <orderEntry type="library" name="slf4j.simple" level="project" />
     <orderEntry type="library" name="google.guava" level="project" />
+    <orderEntry type="library" name="postgresql" level="project" />
   </component>
 </module>

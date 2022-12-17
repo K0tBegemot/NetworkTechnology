@@ -23,7 +23,7 @@ public class DnsResponseHandler implements Handler {
         SelectableChannel channel = key.channel();
         if(!(channel instanceof DatagramChannel) || !(key.attachment() instanceof DnsAttachment))
         {
-            System.err.println("::::");
+            throw new HandlerException(null, Types.DNS_CHANNEL_WRITE_IMPOSSIBLE, "FATAL ERROR. DNS channel isn't of type Datagram Channel. Server will be terminated", "");
         }
         DatagramChannel dnsChannel = (DatagramChannel) channel;
         if(dnsChannel == null)
@@ -37,11 +37,9 @@ public class DnsResponseHandler implements Handler {
         // receive the datagram
         try {
             if (dnsChannel.receive(buffer) == null) {
-                System.err.println("NULL " + Integer.toString(buffer.position()));
                 buffer.clear();
                 return;                                 // no datagram immediately available
             }
-            System.err.println(Integer.toString(buffer.position()));
         }
         catch (IOException e) {
             LogWriter.logWorkflow("FATAL ERROR. IOException was catched while DNSResponceHandler executes. Server will be terminated", workflowLogger);

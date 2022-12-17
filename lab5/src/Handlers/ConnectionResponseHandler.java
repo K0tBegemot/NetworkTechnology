@@ -100,8 +100,8 @@ public class ConnectionResponseHandler implements Handler {
                 // change remote channel state
                 remoteKeyAttachment.setState(KeyState.PROXYING);
                 remoteKey.interestOps(SelectionKey.OP_READ);
-                System.err.println(key.toString());
-                System.err.println(remoteKey.toString());
+                LogWriter.logWorkflow(key.toString(), workflowLogger);
+                LogWriter.logWorkflow(remoteKey.toString(), workflowLogger);
             } else if (attachment.getState() == KeyState.CONNECT_RESPONSE_FAILED) {
                 try {
                     ((CloseChannelHandler) HandlerFactory.getChannelCloser()).handle(key);

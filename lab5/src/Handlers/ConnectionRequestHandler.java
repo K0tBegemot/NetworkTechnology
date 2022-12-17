@@ -77,10 +77,6 @@ public class ConnectionRequestHandler implements Handler, Connector {
                 key.interestOps(0);
                 DomainNameResolver.getResolver().resolveDomainName(address, new DomainNameResolver.KeyData(port, key));////////////////////////////////////////////////
                 return;
-                // TODO fix maven lib for dns-java (can load the classes)
-                //InetSocketAddress dstAddress = AddressGetter.getAddress(address, port);
-                //attachment.setRemoteAddress(dstAddress);
-                //connectToChannel(key);
             } else {
                 try {
                     InetSocketAddress dstAddress;

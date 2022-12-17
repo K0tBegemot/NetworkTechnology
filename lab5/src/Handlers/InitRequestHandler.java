@@ -20,11 +20,10 @@ public class InitRequestHandler implements Handler {
     private static GlobalLogger workflowLogger = GlobalLogger.LoggerCreator.getLogger(GlobalLogger.LoggerType.WORKFLOW_LOGGER);
     @Override
     public void handle(SelectionKey key) throws Exception {
-        LogWriter.logWorkflow("read init request..", workflowLogger);
+        LogWriter.logWorkflow("read init request... " + key.toString(), workflowLogger);
 
         assert key != null;
         SelectableChannel channel = key.channel();
-        System.err.println(key.toString());
         assert channel instanceof SocketChannel;
         assert key.attachment() instanceof CompleteAttachment;
 
