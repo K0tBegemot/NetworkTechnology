@@ -4,22 +4,16 @@
     <list default="true" id="6ea3f921-4740-4b1f-a7a3-9d49bf2cdc74" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../lab2/Client/Client.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/gson_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_website_extension/.idea/lab5_website_extension.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_website_extension/lab5_website_extension/lab5_website_extension.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/libraries/google_code_gson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c39b38af-cec1-4e28-872a-779f20a29549.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c39b38af-cec1-4e28-872a-779f20a29549.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/CloseChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/CloseChannelHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/ConnectionRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ConnectionRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/ConnectionResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ConnectionResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/DnsResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/DnsResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/FinishConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/FinishConnectionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/InitRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/InitRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/InitResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/InitResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/ProxyingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/ProxyingHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/GlobalLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logger/GlobalLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kotbegemot/Desktop/Labs/NetworkTechnology/lab5",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kotbegemot/Desktop/Labs/NetworkTechnology/lab5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Core.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Core.Main" />
@@ -97,7 +91,11 @@
       <workItem from="1669280493266" duration="36423000" />
       <workItem from="1671278080422" duration="1663000" />
       <workItem from="1671279763903" duration="313000" />
-      <workItem from="1671280239228" duration="5085000" />
+      <workItem from="1671280239228" duration="6489000" />
+      <workItem from="1671428664325" duration="32000" />
+      <workItem from="1671429863444" duration="47000" />
+      <workItem from="1671481058483" duration="1784000" />
+      <workItem from="1671552147973" duration="1454000" />
     </task>
     <servers />
   </component>

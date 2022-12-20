@@ -1,66 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c733bd8-daf1-443a-bfc1-6afe2136331b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab2/.idea/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Client/src/Core/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Client/src/Core/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Client/src/Core/HeaderGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Client/src/Core/HeaderGetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Server/src/Core/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Server/src/Core/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Server/src/ThreadPool/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Server/src/ThreadPool/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Server/src/ThreadPool/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Server/src/ThreadPool/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Server/src/Tools/FileWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Server/src/Tools/FileWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_9.xml" beforeDir="false" />
+    <list default="true" id="3faa5e99-f4d1-4231-b392-676da2bb49ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab2/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_website_extension/.idea/lab5_website_extension.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_website_extension/lab5_website_extension/lab5_website_extension.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/NearestPlacesParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/NearestPlacesParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlaceByNameParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlaceByNameParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlacesDescriptionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlacesDescriptionParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlacesWeatherParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/APIResponceParsers/PlacesWeatherParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester$RequesterException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester$RequesterException$ExceptionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester$RequesterException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester$RequesterException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/APIRequester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/HTTPclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/HTTPclient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/Tasks$Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/Tasks$Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/Tasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Core/Tasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Core/connection config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Hit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Hit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Place.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Place.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/NamedPoints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$PlaceDescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$PlaceDescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$WikipediaExtracts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription$WikipediaExtracts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesDescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Feature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Feature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Geometry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Geometry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId$Root.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/PlacesWithId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Coord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Root.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Weather.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Weather.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Wind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription$Wind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/JSONconvertion/classes/WeatherDescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/META-INF/lab3.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/UI/TextUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/UI/TextUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/UI/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/UI/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/APIRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/APIRequester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Tasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/connection config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/connection_config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSONconvertion/classes/NamedPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSONconvertion/classes/NamedPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/.idea/dataSources/c39b38af-cec1-4e28-872a-779f20a29549.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/dataSources/c39b38af-cec1-4e28-872a-779f20a29549.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -68,37 +26,47 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HLC0Kl8rvjcwpxgtNNL9JnLthR" />
+  <component name="ProjectId" id="2J7Xzk4ZUJ25TqEMpmXXGRPlbJu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kotbegemot/Desktop/Labs/NetworkTechnologyPulled/NSU_Networks/lab5",
+    "last_opened_file_path": "/home/kotbegemot/Desktop/Labs/NetworkTechnology/lab3",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="lab3" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9c733bd8-daf1-443a-bfc1-6afe2136331b" name="Changes" comment="" />
-      <created>1668054752846</created>
+      <changelist id="3faa5e99-f4d1-4231-b392-676da2bb49ac" name="Changes" comment="" />
+      <created>1671430359623</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668054752846</updated>
-      <workItem from="1668054754171" duration="15041000" />
-      <workItem from="1668425735731" duration="852000" />
+      <updated>1671430359623</updated>
+      <workItem from="1671430360965" duration="6337000" />
+      <workItem from="1671483050481" duration="608000" />
+      <workItem from="1671552160342" duration="2030000" />
     </task>
     <servers />
   </component>
